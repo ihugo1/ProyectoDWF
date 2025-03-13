@@ -1,0 +1,56 @@
+.panel-cliente{
+  margin-top: 10vh;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: var(--spacing-md);
+  background-color: var(--gray-color);
+  .contenedor-izquierdo{
+    width: 30%;
+    height: 100%;
+    .cuentas-cliente{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-md);
+      .titulo{
+        font-size: var(--font-md);
+        font-weight: 700;
+        text-align: center;
+      }
+    }
+  }
+  .contenedor-derecha{
+    width: 60%;
+    height: 50vh;
+    .transacciones{
+      width: 100%;
+      height: 70vh;
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-md);
+      .titulo{
+        font-size: var(--font-md);
+        font-weight: 700;
+        text-align: center;
+      }
+      .lista-transacciones{
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-md);
+        overflow-y: scroll;
+        background-color: var(--gray-color);
+        padding: var(--spacing-md);
+        border-radius: 10px 10px 0 0;
+        .transaccion{
+          width: 100%;
+          padding: var(--spacing-md);
+          border-radius: 10px;
+          background-color: var(--white-color);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+  }
+}

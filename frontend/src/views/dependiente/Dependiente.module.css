@@ -1,0 +1,22 @@
+.dependiente-page{
+  margin-top: 10vh;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: var(--spacing-md);
+  background-color: var(--gray-color);
+  .contenedor-izquierdo{
+    width: 40%;
+    .info-negocio{
+      display: flex;
+      gap: var(--spacing-sm);
+      .label-nombre{
+        font-weight: 700;
+      }
+    }
+  }
+  .contenedor-derecho{
+    width: 50%;
+  }
+}

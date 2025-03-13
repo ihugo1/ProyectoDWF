@@ -1,0 +1,33 @@
+.create-user-form{
+  width: 100%;
+  display: flex;
+  gap: var(--spacing-md);
+  flex-direction: column;
+  align-items: center;
+  .title{
+    font-weight: 700;
+  }
+  .section{
+    display: flex;
+    gap: var(--spacing-sm);
+    width: 80%;
+    p{
+      width: 20%;
+      text-align: right;
+    }
+    input{
+      width: 80%;
+      border: none;
+      border-radius: 10px;
+      border: 2px solid var(--gray-color);
+    }
+  }
+  .create-user-btn{
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 10px;
+    color: var(--white-color);
+    font-size: var(--font-md);
+    padding: var(--spacing-sm);
+  }
+}

@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: var(--black-color);
+}
+/*-------------------------------------------------------
+# Tamañoos
+---------------------------------------------------------*/
+:root{
+  --font-sm: 0.5rem;
+  --font-md: 1rem;
+  --font-lg: 1.5rem;
+}
+/*-------------------------------------------------------
+# Colores
+---------------------------------------------------------*/
+:root{
+  --primary-color: #2131a7;
+  --secondary-color: rgb(70, 146, 70);
+  --white-color: #e1e2eb;
+  --gray-color: #cecdcd;
+  --black-color: #222222;
+}
+/*-------------------------------------------------------
+# Espacios
+---------------------------------------------------------*/
+:root{
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+}
+.wrapper{
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  padding: var(--spacing-md);
+  margin: var(--spacing-md) 0;
+  background-color: var(--white-color);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.table{
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  th{
+    padding: var(--spacing-sm);
+  }
+  tr{
+    td{
+      border: none;
+      padding: var(--spacing-sm);
+      background-color: var(--gray-color);
+    }
+  }
+}
+.submit-btn{
+  background-color: var(--secondary-color);
+  padding: var(--spacing-sm);
+  border: none;
+  color: var(--white-color);
+  border-radius: 10px;
+  font-size: var(--font-md);
+}

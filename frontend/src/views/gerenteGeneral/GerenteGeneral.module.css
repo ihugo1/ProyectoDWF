@@ -1,0 +1,83 @@
+.panel-gerente-general{
+  margin-top: 10vh;
+  min-height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: var(--spacing-md);
+  background-color: var(--gray-color);
+  .contenedor-izquierda{
+    width: 45%;
+    .panel-crear-sucursal{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .titulo{
+        font-weight: 700;
+        text-align: center;
+      }
+      input{
+        width: 80%;
+        border: none;
+        border-radius: 10px;
+        border: 2px solid var(--gray-color);
+      }
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-md);
+    }
+    .peticiones-personal{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: var(--spacing-md);
+      .titulo{
+        font-weight: 700;
+      }
+      .lista{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: var(--spacing-md);
+        background-color: var(--gray-color);
+        border-radius: 10px;
+        gap: var(--spacing-md);
+        .peticion{
+          background-color: var(--white-color);
+          padding: var(--spacing-md);
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+  .contenedor-derecha{
+    width: 45%;
+    .lista-movimientos{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: var(--spacing-md);
+      .titulo{
+        font-weight: 700;
+      }
+      .lista{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: var(--spacing-md);
+        background-color: var(--gray-color);
+        border-radius: 10px;
+        gap: var(--spacing-md);
+        .movimiento{
+          background-color: var(--white-color);
+          padding: var(--spacing-md);
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}
