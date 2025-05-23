@@ -1,0 +1,25 @@
+.crear-movimiento-panel {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+    .contenedor-select{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  
+    gap: var(--spacing-sm);
+    .label-select{
+      font-size: 14px;
+      color: var(--black-color);
+      font-weight: 500;
+    }
+    select{
+      width: 100%;
+      border: 2px solid var(--gray-color);
+      padding: var(--spacing-sm);
+      border-radius: 10px;
+      padding: var(--spacing-sm) var(--spacing-md);
+    }
+  }
+}

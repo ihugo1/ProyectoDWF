@@ -1,0 +1,7 @@
+.panel-crear-sucursal {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-md);
+}

@@ -1,0 +1,22 @@
+.formulario-logeo{
+  margin-top: 10vh;
+  height: 90vh;
+  display: flex;
+  gap: var(--spacing-md);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  input{
+    border: none;
+    padding: var(--spacing-md);
+    border-radius: 10px;
+    border: 2px solid rgb(103, 116, 119);
+  }
+  button{
+    padding: var(--spacing-md);
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+  }
+}

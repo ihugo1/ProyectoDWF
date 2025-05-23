@@ -58,10 +58,17 @@
   }
 }
 .submit-btn{
+  width: 50%;
   background-color: var(--secondary-color);
   padding: var(--spacing-sm);
   border: none;
   color: var(--white-color);
   border-radius: 10px;
   font-size: var(--font-md);
+}
+.mensaje-error{
+  background-color: rgba(255, 0, 0, 0.692);
+  color: white;
+  border-radius: 10px;
+  padding: var(--spacing-md);
 }

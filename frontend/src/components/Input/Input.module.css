@@ -1,0 +1,33 @@
+.contenedor-input{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  .label-input{
+    font-size: 14px;
+    color: var(--black-color);
+    font-weight: 500;
+  }
+  input{
+    width: 100%;
+    border: 2px solid var(--gray-color);
+    padding: var(--spacing-sm);
+    border-radius: 10px;
+    padding: var(--spacing-sm) var(--spacing-md);
+  }
+  select{
+    width: 100%;
+    border: 2px solid var(--gray-color);
+    padding: var(--spacing-sm);
+    border-radius: 10px;
+    padding: var(--spacing-sm) var(--spacing-md);
+  }
+  input:focus{
+    outline: none;
+  }
+  .input-error{
+    margin-left: 0.5rem;
+    color: red;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,44 @@
+.lista-movimientos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-md);
+  .movimiento {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: var(--spacing-md);
+    .movimiento-tipo {
+      width: 10%;
+      .tipo {
+        color: rgb(0, 134, 175);
+      }
+    }
+    .movimiento-cuenta {
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;
+      .cuenta {
+        color: rgb(0, 134, 175);
+      }
+    }
+    .movimiento-monto {
+      width: 20%;
+      text-align: center;
+      .monto {
+        color: green;
+      }
+    }
+    .movimiento-usuario {
+      width: 30%;
+      .usuario {
+        color: rgb(0, 134, 175);
+      }
+    }
+  }
+}

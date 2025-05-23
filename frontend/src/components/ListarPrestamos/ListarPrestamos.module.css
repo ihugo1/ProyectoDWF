@@ -1,0 +1,52 @@
+.lista-prestamos {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  .prestamo {
+    width: 100%;
+    padding: var(--spacing-md);
+    display: flex;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    .prestamo-info {
+      width: 70%;
+      display: flex;
+      gap: var(--spacing-md);
+      flex-direction: column;
+      justify-content: space-between;
+      .prestamo-seccion {
+        width: 100%;
+        display: flex;
+        gap: var(--spacing-sm);
+        label {
+          font-weight: bold;
+        }
+      }
+    }
+    .prestamo-acciones {
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: var(--spacing-md);
+      .aceptar-btn {
+        background-color: var(--secondary-color);
+        border: none;
+        padding: var(--spacing-sm);
+        border-radius: 10px;
+        color: white;
+      }
+      .rechazar-btn {
+        background-color: rgb(146, 29, 29);
+        border: none;
+        padding: var(--spacing-sm);
+        border-radius: 10px;
+        color: white;
+      }
+      button::hover{
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.crear-prestamo-panel{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  .title{
+    text-align: center;
+  }
+}

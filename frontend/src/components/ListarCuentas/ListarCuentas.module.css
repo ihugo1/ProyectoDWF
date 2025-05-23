@@ -1,0 +1,27 @@
+.lista-cuentas {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-md);
+  .cuenta {
+    width: 100%;
+    display: flex;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: var(--spacing-md);
+    .cuenta-numero{
+      width: 70%;
+      .numero{
+        color: rgb(0, 134, 175);
+      }
+    }
+    .cuenta-saldo{
+      width: 30%;
+      text-align: center;
+      .saldo{
+        color: green;
+      }
+    }
+  }
+}

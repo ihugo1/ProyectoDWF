@@ -9,21 +9,10 @@
   .contenedor-izquierda{
     width: 45%;
     .panel-crear-sucursal{
+      width: 80%;
       display: flex;
       flex-direction: column;
       align-items: center;
-      .titulo{
-        font-weight: 700;
-        text-align: center;
-      }
-      input{
-        width: 80%;
-        border: none;
-        border-radius: 10px;
-        border: 2px solid var(--gray-color);
-      }
-      display: flex;
-      flex-direction: column;
       gap: var(--spacing-md);
     }
     .peticiones-personal{
